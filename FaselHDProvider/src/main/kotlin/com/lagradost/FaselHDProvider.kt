@@ -7,6 +7,7 @@ import org.jsoup.nodes.Element
 class FaselHDProvider : MainAPI() {
     override var lang = "ar"
     override var mainUrl = "https://faselhd.io"
+    //Add Mobile User Agent to Unlock Full HD 
     override var name = "FaselHD"
     override val usesWebView = false
     override val hasMainPage = true
